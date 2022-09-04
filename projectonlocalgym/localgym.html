@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fitness</title>
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet"> 
+    <style>
+        body{
+            font-family: 'Secular One', sans-serif;
+            margin: 0px;
+            padding: 0px;
+            
+            background-repeat: no-repeat;
+            background-image: url('https://cdn.pixabay.com/photo/2016/11/22/22/25/abs-1850926_960_720.jpg');
+            background-size: cover;
+            
+        }
+          .header{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }        
+       
+        .left{
+            position: absolute;
+            left: 34px;
+            top: 22px;
+            /* border: 2px solid red; */
+            display: inline-block;
+        }
+        .mid{
+            display: block;
+            width: 50%;
+            /* border:2px solid green; */
+            margin: 23px auto;
+        }
+        .right{
+            position: absolute;
+            right: 34px;
+            top: 22px;
+            display: inline-block;
+            /* border: 2px solid yellow; */
+        }
+        .navbar{
+          display: inline-block;
+        }
+        .navbar li{
+           display: inline-block;
+        }
+        .navbar li a{
+            color: white;
+            font-size: large;
+            font-weight: bold;
+            padding: 34px 23px;
+            text-decoration: none;
+            /* margin: 3px; */
+        }
+        .navbar li a:hover{
+            text-decoration: underline;
+            color:grey;
+        }
+        .left img{
+            width: 83px;
+            filter: invert(100%);
+        }
+        .left div{
+            color: antiquewhite;
+            text-align: center;
+        }
+        .btn{
+            padding: 4px 10px;
+            margin: 12px 10px;
+            color: aliceblue;
+            font-family: 'Josefin Sans', sans-serif;
+            background-color: black;
+            border: 2px solid grey;
+            border-radius: 10px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        .btn:hover{
+            background-color: grey;
+        }
+        .container{
+            border: 2px solid grey;
+            color: white;
+            padding: 55px;
+            /* margin: 45px 711px; */
+            width: 33%;
+            border-radius: 20px;
+            position: absolute;
+            right: 10px;
+        }
+        .form-group input{
+            text-align: center;
+            display: block;
+            font-family: 'Secular One', sans-serif;
+            padding: 5px 80px;
+            margin: 18px 3px;
+            font-size: 20px;
+            border-radius: 10px;
+            font-weight: bold;
+        }
+        #btn1{
+            display: block;
+            margin: 3px 160px;
+            font-size: 20px;
+            font-family: 'Secular One', sans-serif;
+        }
+        .container1{
+            margin: 40px auto;
+            height: 544px;
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            /* border: 2px solid red; */
+        }
+        .container2{
+            position: absolute;
+            
+            left: 10px;
+            top: 300px;
+            /* border: 2px solid yellow; */
+            width:15%;
+             
+        }
+        /* .container3{
+            border: 2px solid grey;
+            background-color:darkkhaki
+        } */
+        .thought{
+            color:orange;
+            font-family: 'Secular One', sans-serif;
+            font-size: 15px;
+
+        }
+        #creator{
+            color: bisque;
+            text-align: center;
+             background-color: grey;
+
+        }
+       .images{
+        border: 2px solid grey;  
+        display: inline-block;
+       }
+       .images img{
+        width: 30px;
+       }
+    </style>
+<link rel="stylesheet" href="css/style1.css">
+<body>
+    
+<header class="header">
+    <div class="left">
+       <img src="img\gymimg3.png" alt="">
+       <div class="para">SPORTS RADEX GYM</div>
+    </div>
+    <div class="mid">
+    <ul class="navbar">
+        <li><a href="#" >Home </a></li>
+        <li><a href="\tut21.html" target="_blank">About us</a></li>
+        <li><a href="#">Fitness Calculator</a></li>
+        <li><a href="\tut22.html" target="_blank" >Contact us</a></li>
+        
+    </ul>
+    </div>
+    <!-- <div class="right">
+     <button class="btn">Call us now</button>
+     <button class="btn">Search</button>
+    </div> -->
+</header>
+<div class="container1">
+     <div class="container2">
+        <p class="thought">
+            "The quality of your health determines the quality of your life and nothing is more important than that"
+        </p>  
+     </div>
+    <div class="container">
+        <h1>Join the best gym of Bhopal</h1>
+    <form action="noaction.php">
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your name">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="enter ur age">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="enter ur mobile no.">
+        </div>
+        <button class="btn" id="btn1">
+            Submit
+        </button>
+    </form>
+    </div>
+</div>
+<div class="container3">
+    <p id="creator">Web page created by pulkit singh chouhan </p>
+   
+</div>
+</body>
+</html>
